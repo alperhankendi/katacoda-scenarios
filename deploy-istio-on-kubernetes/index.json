@@ -3,8 +3,8 @@
     "pathwayId": "istio",
     "pathwayTitle": "Istio",
     "icon": "fa-istio",
-    "title": "Get Started with Istio and Kubernetes",
-    "description": "Learn how to get started with Istio Service Mesh and Kubernetes",
+    "title": "Get Started with Istio",
+    "description": "Istio Service Mesh",
     "authenticated": false,
     "details": {
         "steps": [

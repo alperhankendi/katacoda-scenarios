@@ -1,47 +1,21 @@
 {
-    "id": "deploy-istio-on-kubernetes",
-    "pathwayId": "istio",
-    "pathwayTitle": "Istio",
-    "icon": "fa-istio",
-    "title": "Get Started with Istio",
-    "description": "Istio Service Mesh",
+    "id": "eventstore-workshop",
+    "pathwayId": "eventstore",
+    "pathwayTitle": "eventstore",
+    "icon": "fa-eventstore",
+    "title": "Get Started with EventStore",
+    "description": "www.eventstore.org",
     "authenticated": false,
     "details": {
         "steps": [
             {
-                "title": "Launch Kubernetes Cluster",
+                "title": "Launch Server",
                 "code": "set-env.sh",
                 "text": "step1.md"
-            },
-            {
-                "title": "Deploy Istio",
-                "courseData": "ensure-configured.sh",
-                "text": "step2.md"
-            },
-            {
-                "title": "Deploy Istio Metrics and Tracing",
-                "text": "step3.md"
-            },
-            {
-                "title": "Deploy Sample Application",
-                "text": "step4.md"
-            },
-            {
-                "title": "Control Routing",
-                "text": "step6.md"
-            },
-            {
-                "title": "Access Metrics",
-                "text": "step7.md"
-            },
-            {
-                "title": "Visualise Cluster using Weave Scope",
-                "text": "step8.md"
             }
         ],
         "intro": {
             "text": "intro.md",
-            "courseData": "courseBase.sh",
             "credits": ""
         },
         "finish": {
@@ -61,6 +35,6 @@
     },
     "backend": {
         "port": 80,
-        "dockerimage": "istio"
+        "dockerimage": "docker"
     }
 }

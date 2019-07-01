@@ -24,7 +24,7 @@
     },
     "environment": {
         "showdashboard": true,
-        "dashboard": "Dashboard",
+        "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "EventStore", "port": 2113}],
         "uilayout": "terminal",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
         "uidependencies": [

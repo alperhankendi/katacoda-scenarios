@@ -12,7 +12,7 @@
                 "title": "Launch Server",
                 "code": "set-env.sh",
                 "text": "step1.md"
-            }
+            } 
         ],
         "intro": {
             "text": "intro.md",

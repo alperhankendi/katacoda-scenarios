@@ -9,10 +9,22 @@
     "details": {
         "steps": [
             {
-                "title": "Kurulum Adım-1",
+                "title": "Kurulum Hazırlığı",
                 "code": "set-env.sh",
                 "text": "step1.md"
-            } 
+            },
+            {
+                "title": "EventStore kurulumu",
+                "text": "step2.md"
+            },
+            {
+                "title": "EventStore ayarları",
+                "text": "step3.md"
+            },
+            {
+                "title": "EventStore Yönetim Panel erişimi",
+                "text": "step4.md"
+            }      
         ],
         "intro": {
             "text": "intro.md",

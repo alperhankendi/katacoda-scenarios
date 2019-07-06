@@ -3,13 +3,13 @@
     "pathwayId": "eventstore",
     "pathwayTitle": "eventstore",
     "icon": "fa-eventstore",
-    "title": "Get Started with EventStore",
+    "title": "Event Store Giriş",
     "description": "www.eventstore.org",
     "authenticated": false,
     "details": {
         "steps": [
             {
-                "title": "Launch Server",
+                "title": "Kurulum Adım-1",
                 "code": "set-env.sh",
                 "text": "step1.md"
             } 

@@ -1,0 +1,1 @@
+ssh root@host01 "git clone https://github.com/alperhankendi/katacoda-scenarios; mv katacoda-scenarios/eventstore-workshop/* .; rm -rf katacoda-scenarios"

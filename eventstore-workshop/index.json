@@ -28,7 +28,15 @@
             {
                 "title": "EventStore Yönetim Panel erişimi",
                 "text": "step5.md"
-            }      
+            }, 
+            {
+                "title": "EventStore bir stream nasıl eklenir ?",
+                "text": "step6.md"
+            },
+            {
+                "title": "EventStore eklenen bir stream nasıl okunur?",
+                "text": "step7.md"
+            }
         ],
         "intro": {
             "text": "intro.md",

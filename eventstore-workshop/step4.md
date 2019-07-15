@@ -31,3 +31,5 @@ StatsPeriodSec: 30
 | Db | Veritabanı dosyalarının path belirler. |
 | Index | Index dosyalarının path belirler. |
 | StatsPeriodSec | Node lar arasındaki healty check periyod süresini tanımlar.(Default:5 saniye)  |
+
+EventStore tüm parametreleri görmek için [tıklayın.](https://eventstore.org/docs/server/command-line-arguments/index.html)

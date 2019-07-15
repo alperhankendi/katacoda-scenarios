@@ -11,28 +11,3 @@ Başlangıç olarak kullandığınız linuz sürümüne göre EventStore package
 
 Dağıtım deposunun listeye eklendiğini 
 `clear&&cat /etc/apt/sources.list.d/EventStore_EventStore-OSS.list`{{execute}} kontrol edebilirsiniz.
-
-#### EventStore-oss paketini kurulumu
-
-Dağıtım deposunun hazırlanması sonrasında eventstore-oss kurulumu için  `apt-get install eventstore-oss`{{execute}}
-çalıştırılmalıdır.
-
-paket kurulumu tamamlandıktan sonra eventStore.service durumunu `systemctl status eventstore.service`{{execute}}
-ile kontrol edebilirsiniz.
-
-
-Servisi çalıştırmak için `systemctl start eventstore.service`{{execute}} kullanabiliriz.
-
-
-### EventStore konfigurasyonu
-
-`cat >> /etc/eventstore/eventstore.conf  
-IntIp : 0.0.0.0  
-ExtIp : 0.0.0.0  
-RunProjections: ALL  
-ClusterSize: 1  
-EOF`{{execute}}
-
-
-`systemctl restart eventstore.service`{{execute}}
-

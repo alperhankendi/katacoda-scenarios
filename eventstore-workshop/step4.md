@@ -1,5 +1,8 @@
 ### EventStore Cluster konfigurasyonu
 
+Eğer EventStore Linux bazlı bir ortama kurulduğunda konfigurasyon dosyası /etc/eventstore/eventstore.conf altında yer almaktadır.
+
+
 ```
 IntIp: 10.168.100.115
 ExtIp: 10.168.100.115

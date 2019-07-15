@@ -22,8 +22,12 @@
                 "text": "step3.md"
             },
             {
-                "title": "EventStore Yönetim Panel erişimi",
+                "title": "EventStore Cluster konfigurasyonu",
                 "text": "step4.md"
+            },
+            {
+                "title": "EventStore Yönetim Panel erişimi",
+                "text": "step5.md"
             }      
         ],
         "intro": {

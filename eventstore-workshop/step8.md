@@ -11,8 +11,6 @@ Aşağıdaki komutlar ile sepetlere ürünler ekleyelim. shoppingCart-{guid} li 
 
 `curl -i -d "@example/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1167.json" "http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1167" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
 
- `curl -i -H "Accept:application/vnd.eventstore.atom+json" "http://127.0.0.1:2113/streams/newstream"`{{execute}}
-
 ###İlk EventStore projection yaratalım
 ```
 fromAll()

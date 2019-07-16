@@ -1,5 +1,3 @@
-###Bir event'i 'Stream' olarak eklenmesi
-
 İlk EventStore işlemi olarak bir event'in nasıl eventstream olarak yazıldığını göreceğiz. 
 
 Eventstore kayıt edeceğimiz ilk event aşağıdaki json örneğinde görüldüğü gibi "data" elementi içinde yer almaktadır. EventType, mesajın tipi; EventId, mesajın tekil id sini temsil etmektedir. 

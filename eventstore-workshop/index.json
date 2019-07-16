@@ -36,6 +36,10 @@
             {
                 "title": "EventStore eklenen bir stream nasıl okunur?",
                 "text": "step7.md"
+            },
+            {
+                "title": "EventStore Projection kullanımı",
+                "text": "step8.md"
             }
         ],
         "intro": {

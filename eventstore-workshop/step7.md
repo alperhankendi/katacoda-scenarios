@@ -1,5 +1,3 @@
-###Eklenen bir 'Stream' in event lerini okumak
-
 Bir önceki adımda eklediğimiz "newStream" idli event okumak için aşağıdaki komutu çalıştırılmalıdır.
 
  `curl -i -H "Accept:application/vnd.eventstore.atom+json" "http://127.0.0.1:2113/streams/newstream"`{{execute}}

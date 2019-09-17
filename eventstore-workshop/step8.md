@@ -3,13 +3,13 @@ Projection örneği için öncelikle birkaç veri ekleyelim.
 
 Aşağıdaki komutlar ile sepetlere ürünler ekleyelim. shoppingCart-{guid} li  her gibi ayrı sepet oluşturuluyor. buradaki shoppingCart-{guid} her birisi ayrı EventStore da "Stream" olarak eklenmektedir.
 
-`curl -i -d "@example/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1164.json" "http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1164" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
+`curl -i -d "@example/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1164.json" "http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1164" -H "authorization: Basic YWRtaW46Y2hhbmdlaXQ=" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
 
-`curl -i -d "@example/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1165.json" "http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1165" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
+`curl -i -d "@example/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1165.json" "http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1165" -H "authorization: Basic YWRtaW46Y2hhbmdlaXQ=" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
 
-`curl -i -d "@example/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1166.json" "http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1166" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
+`curl -i -d "@example/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1166.json" "http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1166" -H "authorization: Basic YWRtaW46Y2hhbmdlaXQ=" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
 
-`curl -i -d "@example/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1167.json" "http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1167" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
+`curl -i -d "@example/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1167.json" "http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1167" -H "authorization: Basic YWRtaW46Y2hhbmdlaXQ=" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
 
 ###İlk EventStore projection yaratalım
 ```
@@ -37,5 +37,5 @@ Projection REST API ile aşağıdaki komut ile yaratılmaktadır. Aynı şekilde
 ### Yarattığımız projection üzerinden sorgulamak
 
 Sepette ekli "Xbox One S" ürünleri REST API üzerinden sorgulayabiliriz.
-`curl -i http://localhost:2113/projection/xbox-one-s-counter/state`{{execute}}
+`curl -i http://localhost:2113/projection/xbox-one-s-counter/state -H "authorization: Basic YWRtaW46Y2hhbmdlaXQ="`{{execute}}
 

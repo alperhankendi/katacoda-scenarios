@@ -5,6 +5,6 @@ Eventstore kayıt edeceğimiz ilk event aşağıdaki json örneğinde görüldü
  `clear&&cat example/test-event.json`{{execute}}
 EventStore 2113 portundan yayın yapan Rest API aşağıdaki şekilde event kayıt edilmektedir.
 
- `clear&&curl -i -d "@example/test-event.json" "http://127.0.0.1:2113/streams/newstream" -H "Content-Type:application/vnd.eventstore.events+json"`{{execute}}
+ `clear&&curl -i -d "@example/test-event.json" "http://127.0.0.1:2113/streams/newstream" -H "Content-Type:application/vnd.eventstore.events+json" -H "authorization: Basic YWRtaW46Y2hhbmdlaXQ=" `{{execute}}
 
  Dosyada yer alan mesaj EventStore'a "newStream" id si ile eklenmiştir.

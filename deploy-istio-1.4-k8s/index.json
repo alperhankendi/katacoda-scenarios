@@ -1,0 +1,51 @@
+{
+    "id": "deploy-istio-1.4-on-kubernetes",
+    "pathwayId": "istio-1.4",
+    "pathwayTitle": "Istio-1.4",
+    "icon": "fa-istio",
+    "title": "Get Started with Istio 1.4",
+    "description": "Istio 1.4 Service Mesh",
+    "authenticated": false,
+    "details": {
+        "steps": [
+            {
+                "title": "Launch Kubernetes Cluster",
+                "code": "set-env.sh",
+                "text": "step1.md"
+            },
+            {
+                "title": "Deploy Istio",
+                "courseData": "ensure-configured.sh",
+                "text": "step2.md"
+            },
+            {
+                "title": "Deploy Sample Application (Booksample)",
+                "text": "step3.md"
+            },
+           
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
+        "uidependencies": [
+            "/socket.io/socket.io.js",
+            "/javascripts/term.js",
+            "/javascripts/terminal-application.js"
+        ]
+    },
+    "backend": {
+        "port": 80,
+        "dockerimage": "istio"
+    }
+}

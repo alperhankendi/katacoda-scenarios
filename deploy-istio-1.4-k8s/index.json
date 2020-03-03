@@ -3,7 +3,7 @@
     "pathwayId": "istio-1.4",
     "pathwayTitle": "Istio-1.4",
     "icon": "fa-istio",
-    "title": "Get Started with Istio 1.4",
+    "title": "Get Started with Istio 1.4 ver1",
     "description": "Istio 1.4 Service Mesh",
     "authenticated": false,
     "details": {
@@ -52,7 +52,7 @@
         ]
     },
     "backend": {
-        "port": 80,
+        "port": 8080,
         "dockerimage": "kubernetes-cluster"
     }
 }

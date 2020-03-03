@@ -53,6 +53,6 @@
     },
     "backend": {
         "port": 80,
-        "dockerimage": "kubernetes-cluster-running"
+        "dockerimage": "kubernetes-cluster"
     }
 }

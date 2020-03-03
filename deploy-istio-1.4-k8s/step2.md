@@ -2,7 +2,7 @@ Istio is installed in two parts. The first part involves the CLI tooling that wi
 
 ## Install CLI tooling
 
-The following command will install the Istio 0.7.1 release.
+The following command will install the Istio 1.4.6 release.
 
 `curl -L https://istio.io/downloadIstio | sh -`{{execute}}
 
@@ -19,7 +19,7 @@ You should see the message like;
 
 Install Pre-Check passed! The cluster is ready for Istio installation.
 
-##Install Istio
+## Install Istio
 
 These instructions assume you are new to Istio, providing streamlined instruction to install Istio’s built-in demo configuration profile. This installation lets you quickly get started evaluating Istio.
 

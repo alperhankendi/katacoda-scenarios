@@ -15,6 +15,4 @@ There are 3 versions of the reviews microservice:
 
 The end-to-end architecture of the application is shown below.
 
-![Architecture][https://github.com/alperhankendi/katacoda-scenarios/blob/master/deploy-istio-1.4-k8s/assets/noistio.svg]
-
-## Check Status
+![architecture](https://github.com/alperhankendi/katacoda-scenarios/blob/master/deploy-istio-1.4-k8s/assets/noistio.png "end to end architecture")

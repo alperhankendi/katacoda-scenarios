@@ -20,6 +20,14 @@
             {
                 "title": "Deploy Sample Application (Booksample)",
                 "text": "step3.md"
+            },
+            {
+                "title": "Deploy the application services",
+                "text": "step4.md"
+            },
+            {
+                "title": "Determine the ingress IP and port",
+                "text": "step5.md"
             }
            
         ],

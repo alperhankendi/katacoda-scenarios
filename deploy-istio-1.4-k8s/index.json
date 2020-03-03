@@ -3,7 +3,7 @@
     "pathwayId": "istio-1.4",
     "pathwayTitle": "Istio-1.4",
     "icon": "fa-istio",
-    "title": "Get Started with Istio 1.4 ver2",
+    "title": "Get Started with Istio 1.4 ver 3",
     "description": "Istio 1.4 Service Mesh",
     "authenticated": false,
     "details": {
@@ -44,15 +44,10 @@
         "showdashboard": true,
         "dashboard": "Dashboard",
         "uilayout": "terminal-terminal",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
-        "uidependencies": [
-            "/socket.io/socket.io.js",
-            "/javascripts/term.js",
-            "/javascripts/terminal-application.js"
-        ]
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
     "backend": {
-        "port": 80,
-        "dockerimage": "kubernetes-cluster"
+        "port": 8080,
+        "imageid": "kubernetes-cluster-running"
     }
 }

@@ -28,6 +28,14 @@
             {
                 "title": "Determine the ingress IP and port",
                 "text": "step5.md"
+            },
+            {
+                "title": "Configuring Request Routing,Apply a virtual service ",
+                "text": "step6.md"
+            },
+            {
+                "title": "Configuring Request, Routing Route based on user identity",
+                "text": "step7.md"
             }
            
         ],

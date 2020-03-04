@@ -14,7 +14,7 @@ Now that the Bookinfo services are up and running, you need to make the applicat
 
 `export SECURE_INGRESS_PORT=$(kubectl -n istio-system get service istio-ingressgateway -o jsonpath='{.spec.ports[?(@.name=="https")].nodePort}')`{{execute}}
 
-`export INGRESS_HOST=$(kubectl get po -l istio=ingressgateway -n istio-system -o jsonpath='{.items[0].status.hostIP}'`{{execute}}
+`export INGRESS_HOST=$(kubectl get po -l istio=ingressgateway -n istio-system -o jsonpath='{.items[0].status.hostIP}')`{{execute}}
 
 4. Set GATEWAY_URL:
 `export GATEWAY_URL=$INGRESS_HOST:$INGRESS_PORT`{{execute}}
@@ -42,4 +42,3 @@ You can display the destination rules with the following command:
 `kubectl get destinationrules -o yaml`{{execute}}
 
 
- Configuring Request Routing 

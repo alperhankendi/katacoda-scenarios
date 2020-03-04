@@ -3,7 +3,7 @@
     "pathwayId": "istio-1.4",
     "pathwayTitle": "Istio-1.4",
     "icon": "fa-istio",
-    "title": "Get Started with Istio 1.4 ver 3",
+    "title": "Get Started with Istio 1.4 ver 4",
     "description": "Istio 1.4 Service Mesh",
     "authenticated": false,
     "details": {
@@ -36,6 +36,10 @@
             {
                 "title": "Configuring Request, Routing Route based on user identity",
                 "text": "step7.md"
+            },
+            {
+                "title": "Observability, visualizing your mesh",
+                "text": "step8.md"
             }
            
         ],

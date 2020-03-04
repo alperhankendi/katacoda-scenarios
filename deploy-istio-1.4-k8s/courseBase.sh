@@ -1,1 +1,2 @@
 ssh root@master "git clone https://github.com/alperhankendi/katacoda-scenarios.git; mv katacoda-scenarios/deploy-istio-1.4-k8s/assets/ assets; rm -rf katacoda-scenarios"
+ssh root@master "echo getting asserts"

@@ -1,30 +1,7 @@
 ## Observability 
 
-##### Visualizing your mesh
-
-` KIALI_USERNAME=$(read -p 'Kiali Username: ' uval && echo -n $uval | base64)`{{execute}}
-
-`KIALI_PASSPHRASE=$(read -sp 'Kiali Passphrase: ' pval && echo -n $pval | base64)`{{execute}}
-
-`NAMESPACE=istio-system`{{execute}}
-`kubectl create namespace $NAMESPACE`{{execute}}
-
-`cat <<EOF | kubectl apply -f -
-apiVersion: v1
-kind: Secret
-metadata:
-  name: kiali
-  namespace: $NAMESPACE
-  labels:
-    app: kiali
-type: Opaque
-data:
-  username: $KIALI_USERNAME
-  passphrase: $KIALI_PASSPHRASE
-EOF`{{execute}}
-
-
-`istioctl manifest apply --set values.kiali.enabled=true`{{execute}}
+#### Kiali
+the Kiali add-on and use the web-based graphical user interface to view service graphs of the mesh and your Istio configuration objects. 
 
 #### Remotely Accessing Kiali Addons
 

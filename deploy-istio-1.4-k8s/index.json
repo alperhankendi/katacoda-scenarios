@@ -40,6 +40,18 @@
             {
                 "title": "Observability, visualizing your mesh",
                 "text": "step8.md"
+            },
+            {
+                "title": "Observability,  Distributed Tracing",
+                "text": "step9.md"
+            },
+            {
+                "title": "Trafic Management, Injecting an HTTP delay fault",
+                "text": "step10.md"
+            },
+            {
+                "title": "Trafic Management, Injecting an HTTP abort fault",
+                "text": "step11.md"
             }
            
         ],

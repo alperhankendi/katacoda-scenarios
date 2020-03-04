@@ -24,14 +24,22 @@ data:
 EOF`{{execute}}
 
 
-`istioctl manifest apply --set values.kiali.enabled=true` {{execute}}
+`istioctl manifest apply --set values.kiali.enabled=true`{{execute}}
 
-#### Generating a service graph
+#### Remotely Accessing Kiali Addons
 
-1. let's send requests continually with:
+1. Apply networking configuration for the telemetry addons.
+`kubectl apply -f assets/kiali.yaml`{{execute}}
+2. Visit the Kiali addons via browser.
+   https://[[HOST_SUBDOMAIN]]-15029-[[KATACODA_HOST]].environments.katacoda.com/
+
+   *Username: admin*
+   *Password: admin* 
+
+#### Let's play with Kiali
+
+1. Make some requests continually with:
 
 `watch -n 1 curl -o /dev/null -s -w %{http_code} $GATEWAY_URL/productpage`{{execute}}
 
-2. To open the Kiali UI, execute the following command in your Kubernetes environment:
-   
-`istioctl dashboard kiali`{{execute}}
+![architecture](assets/kiali-ui-sample.png)

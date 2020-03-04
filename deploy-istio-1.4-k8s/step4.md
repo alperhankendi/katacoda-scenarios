@@ -26,5 +26,4 @@ and
 
 To confirm that the Bookinfo application is running, send a request to it by a curl command from some pod, for example from ratings:
 
-`$ kubectl exec -it $(kubectl get pod -l app=ratings -o jsonpath='{.items[0].metadata.name}') -c ratings -- curl productpage:9080/productpage | grep -o "<title>.*</title>"
-`{{execute}}
+`kubectl exec -it $(kubectl get pod -l app=ratings -o jsonpath='{.items[0].metadata.name}') -c ratings -- curl productpage:9080/productpage | grep -o "<title>.*</title>"`{{execute}}

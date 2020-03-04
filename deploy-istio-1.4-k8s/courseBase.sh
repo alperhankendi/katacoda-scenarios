@@ -1,0 +1,1 @@
+ssh root@host01 "git clone https://github.com/alperhankendi/katacoda-scenarios.git; mv deploy-istio-1.4-k8s/assets assets; rm -rf katacoda-scenarios"

@@ -9,6 +9,7 @@ You will see how to inject faults to test the resiliency of your application.
 Apply application version routing by either performing the request routing task or by running the following commands
 
 `kubectl apply -f istio-1.4.6/samples/bookinfo/networking/virtual-service-all-v1.yaml`{{execute}}
+
 `kubectl apply -f istio-1.4.6/samples/bookinfo/networking/virtual-service-reviews-test-v2.yaml`{{execute}}
 
 With the above configuration, this is how requests flow:

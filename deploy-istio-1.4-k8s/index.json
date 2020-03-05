@@ -54,8 +54,11 @@
             {
                 "title": "Trafic Management, Injecting an HTTP abort fault",
                 "text": "step11.md"
+            },
+            {
+                "title": "Trafic Management, Traffic Shifting (Canary Deployment)",
+                "text": "step12.md"
             }
-           
         ],
         "intro": {
             "text": "intro.md",

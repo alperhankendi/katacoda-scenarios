@@ -16,3 +16,8 @@ Output:
 | ------------- |:-------------:| -----:|-----:|-----:|
 | master     | Ready | master| 13m| v1.14.0|
 | node01      | Ready      |  < none> |13m| v1.14.0|
+
+Source: 
+- [Istio Documents](https://istio.io/docs/)
+- [Kiali Documents](https://kiali.io/documentation/)
+- [Istio Example Project](https://istio.io/docs/examples/bookinfo/)

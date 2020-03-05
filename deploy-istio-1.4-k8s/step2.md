@@ -25,6 +25,9 @@ These instructions assume you are new to Istio, providing streamlined instructio
 
 `istioctl manifest apply --set profile=demo`{{execute}}
 
+You can find more installation config profile option [here](https://istio.io/docs/setup/additional-setup/config-profiles/)
+
+<b>The Demo Profile is not recomended for production.This profile enables high levels of tracing and access logging so it is not suitable for performance tests</b>
 ## Check Status
 
 Verify the installation by ensuring the following Kubernetes services are deployed.

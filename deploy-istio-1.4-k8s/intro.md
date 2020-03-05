@@ -2,3 +2,5 @@ In this scenario, you will learn how to deploy Istio Service Mesh to Kubernetes.
 
 
 The scenario uses the sample BookInfo application. The application has no dependencies on Istio and demonstrates how any application could build upon Istio without modifications.
+
+![Arch](assets/istio-arch.png)

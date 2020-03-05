@@ -6,6 +6,8 @@
     "title": "Get Started with Istio 1.4",
     "description": "Istio 1.4 Service Mesh",
     "authenticated": false,
+    "difficulty": "advanced",
+    "time": "20 minutes",
     "details": {
         "steps": [
             {

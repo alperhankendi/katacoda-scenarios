@@ -4,7 +4,7 @@ Istio is installed in two parts. The first part involves the CLI tooling that wi
 
 The following command will install the Istio 1.4.6 release.
 
-`curl -L https://istio.io/downloadIstio | sh -`{{execute}}
+`export ISTIO_VERSION=1.4.6; curl -L https://istio.io/downloadIstio | sh -`{{execute}}
 
 After it has successfully run, add the bin folder to your path.
 

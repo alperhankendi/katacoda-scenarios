@@ -1,9 +1,9 @@
 {
     "id": "deploy-istio-1.4-on-kubernetes",
-    "pathwayId": "istio-1.4",
-    "pathwayTitle": "Istio-1.4",
+    "pathwayId": "istio-1.5",
+    "pathwayTitle": "Istio-1.5.1",
     "icon": "fa-istio",
-    "title": "Get Started with Istio 1.4 (V1.4.6)",
+    "title": "Get Started with Istio 1.5 (V1.5.1)",
     "description": "Istio 1.4 Service Mesh",
     "authenticated": false,
     "difficulty": "advanced",
@@ -77,6 +77,6 @@
     },
     "backend": {
         "port": 8080,
-        "imageid": "kubernetes-cluster-running"
+        "imageid": "kubernetes-cluster-running:1.18"
     }
 }
